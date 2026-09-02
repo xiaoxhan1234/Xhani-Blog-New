@@ -125,10 +125,27 @@ const defaultNavBarConfig: NavBarConfig = {
 			icon: "material-symbols:work-rounded",
 			children: [
 			{
-    name: "我的friends",
-    url: "https://example.com",
+    name: "捏脸网站",
+    url: "https://nacho.zako.wf",
+    icon: "https://amachiromaker-3bf.pages.dev/neko.png",
     external: true,
-            },			
+            },
+            {
+    name: "Mikutap",
+    url: "https://mikutap.zako.wf",
+    external: true,
+            },
+            {
+    name: "哟，安杰罗",
+    url: "https://angelo.zako.wf",
+    external: true,
+            },
+            {
+    name: "起始页",
+    url: "https://nav.zako.wf",
+    external: true,
+            },
+            			
 			          ],
 		},
 		LinkPresets.Moments,
