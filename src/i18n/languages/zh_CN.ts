@@ -59,7 +59,7 @@ export const zh_CN: Translation = {
 	[Key.skillLevelAdvanced]: "熟练",
 	[Key.skillLevelExpert]: "精通",
 
-	[Key.projects]: "我的项目",
+	[Key.projects]: "项目展示",
 	[Key.projectsBanner]: "持续打磨的作品、实验与系统。",
 	[Key.projectsCounts]: "个项目",
 	[Key.projectCategories]: "项目分类",
