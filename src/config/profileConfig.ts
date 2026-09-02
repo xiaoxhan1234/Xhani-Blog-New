@@ -7,25 +7,45 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  */
 export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	avatar: "assets/images/demo-avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Shirone",
-	bio: "The rain remembers what the sky forgot to say.",
+	name: "XiaoXhan1234",
+	bio: "你是一只大杂鱼,还是大baka!",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "Bilibili",
+			icon: "fa6-brands:bilibili", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://space.bilibili.com/3546647371975467",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "Email",
+			icon: "fa7-regular:envelope",
+			url: "mailto:mc@xhani.top",
+		},
+		{
+			name: "QQ",
+			icon: "fa6-brands:qq",
+			url: "https://res.abeim.cn/api/qq/?qq=3789656106",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/LyraVoid/Shirone",
+			url: "https://github.com/xiaoxhan1234",
+		},
+		{
+			name: "Telegram",
+			icon: "fa6-brands:telegram",
+			url: "https://t.me/xiaoxhan1234",
+		},
+		{
+			name: "Twitch",
+			icon: "fa6-brands:twitch",
+			url: "https://www.twitch.tv/xiaoxhan1234",
+		},
+		{
+			name: "Twitter",
+			icon: "fa6-brands:x-twitter",
+			url: "https://x.com/xiaoxhan520",
 		},
 	],
 });
