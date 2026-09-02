@@ -127,22 +127,25 @@ const defaultNavBarConfig: NavBarConfig = {
 			{
     name: "捏脸网站",
     url: "https://nacho.zako.wf",
-    imgurl: "https://amachiromaker-3bf.pages.dev/neko.png",
+    icon: "fa6-brands:unity"
     external: true,
             },
             {
     name: "Mikutap",
     url: "https://mikutap.zako.wf",
+    icon: "fa6-brands:flipboard"
     external: true,
             },
             {
     name: "哟，安杰罗",
     url: "https://angelo.zako.wf",
+    icon: "fa6-brands:mintbit"
     external: true,
             },
             {
     name: "起始页",
     url: "https://nav.zako.wf",
+    icon: "fa6-brands:safari"
     external: true,
             },
             			
