@@ -58,15 +58,15 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		// 数组顺序就是轮播顺序；只需要静态 Banner 时，每组保留一张图片即可。
 		src: {
 			desktop: [
-				"assets/images/banner/desktop/1.webp"
-				"assets/images/banner/desktop/2.webp"
-				"assets/images/banner/desktop/3.webp"
-				"assets/images/banner/desktop/4.webp"
-				"assets/images/banner/desktop/5.webp"
-				"assets/images/banner/desktop/6.webp"
-				"assets/images/banner/desktop/7.webp"
-				"assets/images/banner/desktop/8.webp"
-				],
+			"assets/images/banner/desktop/1.webp",
+			"assets/images/banner/desktop/2.webp",
+			"assets/images/banner/desktop/3.webp",
+			"assets/images/banner/desktop/4.webp",
+			"assets/images/banner/desktop/5.webp",
+			"assets/images/banner/desktop/6.webp",
+			"assets/images/banner/desktop/7.webp",
+			"assets/images/banner/desktop/8.webp",
+			],
 			mobile: ["assets/images/banner/mobile/1.webp"],
 		},
 		// 图片裁切焦点："top"、"center" 或 "bottom"。
