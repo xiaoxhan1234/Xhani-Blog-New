@@ -36,7 +36,7 @@ export const fabConfig: FabConfig = withUserConfig("fab", {
 		{
 			type: "toc",
 			enable: true,
-			devices: ["mobile", "tablet"],
+			devices: ["mobile", "tablet", "desktop"],
 			pages: ["post"],
 			depth: 3,
 			closeOnSelect: true,
@@ -44,13 +44,13 @@ export const fabConfig: FabConfig = withUserConfig("fab", {
 		{
 			type: "comment",
 			enable: true,
-			devices: ["mobile", "tablet"],
+			devices: ["mobile", "tablet", "desktop"],
 			pages: ["post"],
 		},
 		{
 			type: "home",
 			enable: true,
-			devices: ["mobile", "tablet"],
+			devices: ["mobile", "tablet", "desktop"],
 			onlySubPages: true,
 		},
 	],
