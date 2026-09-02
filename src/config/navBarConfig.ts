@@ -153,7 +153,7 @@ const defaultNavBarConfig: NavBarConfig = {
 		},
 		{
 			name: i18n(I18nKey.more),
-			icon: "material-symbols:info-rounded",
+			icon: "material-symbols:info",
 			children: [
 				...(timelineConfig.enable ? [LinkPresets.Timeline] : []),
 				...(projectsConfig.enable ? [LinkPresets.Projects] : []),
