@@ -124,16 +124,11 @@ const defaultNavBarConfig: NavBarConfig = {
 			name: i18n(I18nKey.projects),
 			icon: "material-symbols:work-rounded",
 			children: [
-				...(timelineConfig.enable ? [LinkPresets.Timeline] : []),
-				...(projectsConfig.enable ? [LinkPresets.Projects] : []),
-				...(devicesConfig.enable ? [LinkPresets.Devices] : []),
-				...(skillsConfig.enable ? [LinkPresets.Skills] : []),
-				// 分类/标签入口不进导航菜单（避免菜单项过多），预设已登记指向独立页面，
-				// 需要时取消注释即可
-				// LinkPresets.Categories,
-				// LinkPresets.Tags,
-				LinkPresets.About,
-				LinkPresets.GitHub,
+				{
+					name: "捏脸网站",
+					url: "https://nacho.zako.wf"
+					external: true,
+				}
 			],
 		},
 		LinkPresets.Moments,
