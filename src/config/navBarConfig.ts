@@ -152,21 +152,8 @@ const defaultNavBarConfig: NavBarConfig = {
 			          ],
 		},
 		{
-			name: "更多信息",
-			icon: "material-symbols:info-rounded",
-			children: [
-			   LinkPresets.About,
-			   LinkPresets.Friends,
-			   LinkPresets.Albums,
-			          ],
-		},
-		LinkPresets.Moments,
-		LinkPresets.Anime,
-		LinkPresets.Compass,
-		LinkPresets.Albums,
-		{
 			name: i18n(I18nKey.more),
-			icon: "material-symbols:apps-rounded",
+			icon: "material-symbols:info-rounded",
 			children: [
 				...(timelineConfig.enable ? [LinkPresets.Timeline] : []),
 				...(projectsConfig.enable ? [LinkPresets.Projects] : []),
@@ -180,6 +167,10 @@ const defaultNavBarConfig: NavBarConfig = {
 				LinkPresets.GitHub,
 			],
 		},
+		LinkPresets.Moments,
+		LinkPresets.Anime,
+		LinkPresets.Compass,
+		LinkPresets.Albums,
 	],
 };
 
