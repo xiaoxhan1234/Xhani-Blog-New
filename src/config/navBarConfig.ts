@@ -119,7 +119,7 @@ const defaultNavBarConfig: NavBarConfig = {
 	links: [
 		LinkPresets.Home,
 		LinkPresets.Archive,
-		LinkPresets.Friends,
+		LinkPresets.Devices,
 		LinkPresets.Moments,
 		LinkPresets.Anime,
 		LinkPresets.Compass,
