@@ -124,12 +124,12 @@ const defaultNavBarConfig: NavBarConfig = {
 			name: i18n(I18nKey.projects),
 			icon: "material-symbols:work-rounded",
 			children: [
-				{
-					name: "捏脸网站",
-					url: "https://nacho.zako.wf"
-					external: true,
-				}
-			],
+			{
+    name: "我的friends",
+    url: "https://example.com",
+    external: true,
+            },			
+			          ],
 		},
 		LinkPresets.Moments,
 		LinkPresets.Anime,
