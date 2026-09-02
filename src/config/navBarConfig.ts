@@ -37,7 +37,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Friends: {
 		name: i18n(I18nKey.friends),
 		url: "/friends/",
-		icon: "material-symbols:handshake-outline-rounded",
+		icon: "material-symbols:group-rounded",
 		pageKey: "friends",
 	},
 	Moments: {
@@ -85,7 +85,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Albums: {
 		name: i18n(I18nKey.albums),
 		url: "/albums/",
-		icon: "material-symbols:photo-library-outline-rounded",
+		icon: "aterial-symbols:photo-library-rounded",
 		pageKey: "albums",
 	},
 	Categories: {
@@ -103,7 +103,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	About: {
 		name: i18n(I18nKey.about),
 		url: "/about/",
-		icon: "material-symbols:info-outline-rounded",
+		icon: "material-symbols:person-rounded",
 		pageKey: "about",
 	},
 	GitHub: {
@@ -155,31 +155,9 @@ const defaultNavBarConfig: NavBarConfig = {
 			name: "更多信息",
 			icon: "material-symbols:info-rounded",
 			children: [
-			{
-    name: "捏脸网站",
-    url: "https://nacho.zako.wf",
-    icon: "fa6-brands:unity",
-    external: true,
-            },
-            {
-    name: "Mikutap",
-    url: "https://mikutap.zako.wf",
-    icon: "fa6-brands:flipboard",
-    external: true,
-            },
-            {
-    name: "哟，安杰罗",
-    url: "https://angelo.zako.wf",
-    icon: "fa6-brands:mintbit",
-    external: true,
-            },
-            {
-    name: "起始页",
-    url: "https://nav.zako.wf",
-    icon: "material-symbols:explore-rounded",
-    external: true,
-            },
-            			
+			   LinkPresets.About,
+			   LinkPresets.Friends,
+			   LinkPresets.Albums,
 			          ],
 		},
 		LinkPresets.Moments,
