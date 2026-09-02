@@ -79,7 +79,14 @@ export const sidebarConfig: SidebarConfig = withUserConfig("sidebar", {
 		{
 			type: "stats",
 			enable: true,
+			slot: "sticky",
+			pages: ["home", "archive", "categories", "tags"],
+		},
+		{
+			type: "stats",
+			enable: true,
 			slot: "top",
+			column: "secondary",
 			pages: ["home", "archive", "categories", "tags"],
 		},
 		{ type: "calendar", enable: true, slot: "top", column: "secondary" },
