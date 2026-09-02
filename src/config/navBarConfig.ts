@@ -127,7 +127,7 @@ const defaultNavBarConfig: NavBarConfig = {
 			{
     name: "捏脸网站",
     url: "https://nacho.zako.wf",
-    icon: "https://amachiromaker-3bf.pages.dev/neko.png",
+    imgurl: "https://amachiromaker-3bf.pages.dev/neko.png",
     external: true,
             },
             {
