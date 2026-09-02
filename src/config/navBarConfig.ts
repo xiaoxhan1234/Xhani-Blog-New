@@ -85,7 +85,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Albums: {
 		name: i18n(I18nKey.albums),
 		url: "/albums/",
-		icon: "aterial-symbols:photo-library-rounded",
+		icon: "material-symbols:photo-library-rounded",
 		pageKey: "albums",
 	},
 	Categories: {
@@ -153,7 +153,7 @@ const defaultNavBarConfig: NavBarConfig = {
 		},
 		{
 			name: i18n(I18nKey.more),
-			icon: "material-symbols:info",
+			icon: "material-symbols:info-rounded",
 			children: [
 				...(timelineConfig.enable ? [LinkPresets.Timeline] : []),
 				...(projectsConfig.enable ? [LinkPresets.Projects] : []),
