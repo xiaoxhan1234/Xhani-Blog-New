@@ -73,7 +73,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Devices: {
 		name: i18n(I18nKey.devices),
 		url: "/devices/",
-		icon: "material-symbols:devices-rounded",
+		icon: "material-symbols:work",
 		pageKey: "devices",
 	},
 	Timeline: {
