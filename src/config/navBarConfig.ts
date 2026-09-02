@@ -145,7 +145,38 @@ const defaultNavBarConfig: NavBarConfig = {
             {
     name: "起始页",
     url: "https://nav.zako.wf",
-    icon: "fa6-brands:safari",
+    icon: "material-symbols:explore-rounded",
+    external: true,
+            },
+            			
+			          ],
+		},
+		{
+			name: "更多信息",
+			icon: "material-symbols:info-rounded",
+			children: [
+			{
+    name: "捏脸网站",
+    url: "https://nacho.zako.wf",
+    icon: "fa6-brands:unity",
+    external: true,
+            },
+            {
+    name: "Mikutap",
+    url: "https://mikutap.zako.wf",
+    icon: "fa6-brands:flipboard",
+    external: true,
+            },
+            {
+    name: "哟，安杰罗",
+    url: "https://angelo.zako.wf",
+    icon: "fa6-brands:mintbit",
+    external: true,
+            },
+            {
+    name: "起始页",
+    url: "https://nav.zako.wf",
+    icon: "material-symbols:explore-rounded",
     external: true,
             },
             			
