@@ -28,7 +28,7 @@ export const devicesConfig: DevicesConfig = withUserConfig("devices", {
 		},
 		{
 			key: "wearables",
-			label: "Wearables & watch",
+			label: "Wearables & Accessories",
 			icon: "material-symbols:fitness-tracker",
 			description: "Watches, Smart Bands & Wearable Accessories",
 		},
