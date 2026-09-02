@@ -18,11 +18,6 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			url: "https://space.bilibili.com/3546647371975467",
 		},
 		{
-			name: "Email",
-			icon: "fa7-regular:envelope",
-			url: "mailto:mc@xhani.top",
-		},
-		{
 			name: "QQ",
 			icon: "fa6-brands:qq",
 			url: "https://res.abeim.cn/api/qq/?qq=3789656106",
