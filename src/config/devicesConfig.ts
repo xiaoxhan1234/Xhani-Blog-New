@@ -15,12 +15,6 @@ export const devicesConfig: DevicesConfig = withUserConfig("devices", {
 	enable: true,
 	categories: [
 		{
-			key: "desk",
-			label: "Desk Setup",
-			icon: "material-symbols:desktop-windows-outline-rounded",
-			description: "Workstation & home office hardware",
-		},
-		{
 			key: "mobile",
 			label: "Mobile & EDC",
 			icon: "material-symbols:phone-iphone",
@@ -33,10 +27,10 @@ export const devicesConfig: DevicesConfig = withUserConfig("devices", {
 			description: "Headphones, speakers & monitoring gears",
 		},
 		{
-			key: "peripheral",
-			label: "Peripherals",
-			icon: "material-symbols:keyboard-outline-rounded",
-			description: "Keyboards, mice & desk accessories",
+			key: "wearables",
+			label: "Wearables",
+			icon: "material-symbols:fitness_tracker",
+			description: "Watches, Smart Bands & Wearable Accessories",
 		},
 	],
 	// disabledIds: [],
