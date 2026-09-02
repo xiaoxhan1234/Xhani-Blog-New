@@ -6,18 +6,18 @@ import type { DeviceItem } from "@/types/devicesConfig";
 
 export const devicesData: DeviceItem[] = [
 	{
-		id: "macbook-pro-16",
-		name: 'MacBook Pro 16"',
-		brand: "Apple",
-		category: "desk",
+		id: "redmi-turbo-5-max",
+		name: 'REDMI Turbo 5 Max',
+		brand: "REDMI",
+		category: "mobile",
 		status: "active",
-		specs: "M3 Max / 64GB / 2TB",
+		specs: "海风蓝 / 16G + 512GB",
 		description:
-			"Primary workstation for development, design, and heavy rendering workloads.",
-		icon: "material-symbols:laptop-mac-rounded",
+			"天玑旗舰芯, 9000mAh大容量，100W秒充.",
+		icon: "material-symbols:fitness-tracker",
 		featured: true,
-		year: "2024",
-		link: "https://www.apple.com/macbook-pro/",
+		year: "2026",
+		link: "https://www.mi.com/prod/redmi-turbo-5-max/",
 	},
 	{
 		id: "iphone-16-pro",
