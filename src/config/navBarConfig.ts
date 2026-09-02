@@ -161,9 +161,6 @@ const defaultNavBarConfig: NavBarConfig = {
 			],
 		},
 		LinkPresets.Moments,
-		LinkPresets.Anime,
-		LinkPresets.Compass,
-		LinkPresets.Albums,
 	],
 };
 
