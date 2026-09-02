@@ -80,7 +80,7 @@ export const sidebarConfig: SidebarConfig = withUserConfig("sidebar", {
 			type: "stats",
 			enable: true,
 			slot: "sticky",
-			pages: ["calendar"],
+			pages: ["home", "archive"],
 		},
 		{
 			type: "stats",
