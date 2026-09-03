@@ -1,6 +1,6 @@
 {
   "mode": "external",
-  "hidden": false,
+  "hidden": true,
   "title": "受保护的相册",
   "description": "受密码保护的相册, 采用可重用的受保护内容协议.",
   "date": "2025-05-22",
