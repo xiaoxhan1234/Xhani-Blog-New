@@ -2,8 +2,8 @@
 published: 2026-08-12T18:30:00+08:00
 mood: material-symbols:sentiment-excited-outline-rounded
 tags:
-  - wallpaper
-  - daily
+  - 壁纸
+  - 日常
 images:
   - src: /images/moments/girls-trio/girl-1.webp
     alt: Lovely girl wallpaper one

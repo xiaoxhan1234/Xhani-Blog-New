@@ -2,8 +2,8 @@
 published: 2026-07-30T14:20:00+08:00
 mood: material-symbols:desktop-windows-outline-rounded
 tags:
-  - life
-  - wallpaper
+  - 生活
+  - 壁纸
 images:
   - src: /images/moments/scenery/scene-1.webp
     alt: Anime scenery wallpaper one
