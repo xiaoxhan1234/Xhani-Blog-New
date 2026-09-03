@@ -1,9 +1,9 @@
 {
-  "title": "Hidden album",
-  "description": "This album is omitted from the index but remains available by direct URL.",
+  "title": "隐藏的相册",
+  "description": "该相册已从索引中移除，但仍可通过直接链接访问.",
   "date": "2025-08-28",
-  "location": "Private route",
-  "tags": ["hidden", "example"],
+  "location": "测试",
+  "tags": ["隐藏", "测试"],
   "layout": "grid",
   "columns": 3,
   "hidden": true

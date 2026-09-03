@@ -1,15 +1,15 @@
 {
   "mode": "external",
   "hidden": false,
-  "title": "Protected image set",
-  "description": "A password-protected album backed by the reusable protected-content protocol.",
+  "title": "受保护的相册",
+  "description": "受密码保护的相册, 采用可重用的受保护内容协议.",
   "date": "2025-05-22",
   "location": "Private garden",
-  "tags": ["protected", "password", "example"],
+  "tags": ["受保护", "密码", "测试"],
   "layout": "masonry",
   "columns": 3,
   "password": "123456",
-  "passwordHint": "Six digits",
+  "passwordHint": "六位数",
   "cover": "https://picsum.photos/seed/shirone-protected-cover/800/600",
   "photos": [
     {
