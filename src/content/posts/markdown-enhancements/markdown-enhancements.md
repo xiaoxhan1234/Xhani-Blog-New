@@ -1,14 +1,14 @@
 ---
-title: Shirone Markdown Enhancements
-published: 2026-08-19
-description: Explore Shirone's custom Markdown extensions, expressive components, and authoring syntax.
-tags: [Demo, Markdown, Extensions, Theme, Shirone]
-category: Guides
+title: Shirone Markdown 增强功能
+published: 2026-09-03
+description: 探索Shirone的自定义Markdown扩展、富有表现力的组件和创作语法.
+tags: [Markdown, 扩展, 主题, Shirone]
+category: 指南
 lang: zh_CN
 draft: false
 ---
 
-Shirone provides a collection of theme-exclusive Markdown extensions and custom syntax containers. Built on top of our native unified AST processing pipeline, all extensions render into accessible, semantic HTML during site build time with **zero client JavaScript hydration overhead** and **100% M3E design token alignment**.
+Shirone 提供了一系列主题专属的 Markdown 扩展和自定义语法容器.基于我们原生的unified AST处理管道构建,所有这些扩展在站点构建时都会渲染为无障碍、语义化的HTML **具备零客户端 JavaScript 水合开销** 与 **100% M3E 设计令牌对齐的特性.**.
 
 ## File Trees
 
