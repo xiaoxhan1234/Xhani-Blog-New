@@ -1,17 +1,17 @@
 ---
-title: "Markdown File Includes"
+title: "Markdown 文件嵌入"
 published: 2026-09-02
-description: "Build-time Markdown file and slice includes."
+description: "构建时的 Markdown 文件与片段嵌入."
 tags: [Markdown, Shirone]
-category: Guides
+category: 指南
 draft: false
 ---
 
-Shirone can include a local Markdown file or a safe slice of one.
+Shirone 可以嵌入一个本地 Markdown 文件,或其中经过安全校验的片段.
 
 <!-- @include: src/content/snippets/include-example.md#public-api -->
 
-The full file and line-range forms are also supported:
+完整文件形式与行范围形式同样受支持:
 
 ```markdown
 <!-- @include: src/content/snippets/include-example.md -->
@@ -20,4 +20,4 @@ The full file and line-range forms are also supported:
 <!-- @include: src/content/snippets/include-example.md{-4} -->
 ```
 
-Include comments inside fenced code remain literal.
+围栏代码块中的 include 注释将保持字面文本,不会被解析.

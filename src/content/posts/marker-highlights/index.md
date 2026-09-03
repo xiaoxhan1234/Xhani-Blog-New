@@ -1,32 +1,32 @@
 ---
-title: Markdown Marker Highlights
+title: Markdown 标记高亮
 published: 2026-09-02
-description: Highlight key phrases with token-driven marker syntax in Shirone Markdown.
-tags: [Demo, Markdown, Typography, Shirone]
-category: Guides
-lang: en
+description: 在 Shirone Markdown 中使用由设计令牌驱动的标记语法高亮关键短语.
+tags: [Markdown, 排版, Shirone]
+category: 指南
+lang: zh_CN
 draft: false
 ---
 
-Marker highlights bring attention to a specific phrase without turning the surrounding paragraph into a separate component. They render as native `<mark>` elements during the build and inherit the active M3E color system.
+标记高亮能让某个特定短语获得关注,同时又不会让所在段落变成独立组件.它们在构建时渲染为原生 `<mark>` 元素,并继承当前激活的 M3E 色彩系统.
 
-## Default emphasis
+## 默认强调
 
-Use `==text==` when the article's primary color should carry the emphasis. This is useful for ==one decision that readers should retain== while they continue through an ordinary paragraph.
+当希望由文章的主色来承载强调时,请使用 `==text==` 这在普通段落中突出 ==读者应当记住的一个结论== 时非常有用.
 
-The marker may contain ==nested **Markdown emphasis**== when the phrase needs a stronger hierarchy.
+当短语需要更强的层级时,标记中还可包含 ==嵌套的 **Markdown 强调**==.
 
-## Semantic colors
+## 语义化颜色
 
-Use a suffix when the meaning needs a different tonal role. The available variants are `primary`, `secondary`, `tertiary`, `error`, and `tip`.
+当语义需要不同的色调角色时,请添加后缀.可用的变体包括 `primary`、`secondary`、`tertiary`、`error` 和 `tip`.
 
-- ==Primary connects the phrase to the active theme=={.primary}
-- ==Secondary keeps a supporting distinction quiet=={.secondary}
-- ==Tertiary adds a separate editorial signal=={.tertiary}
-- ==Error identifies a condition that needs correction=={.error}
-- ==Tip highlights practical guidance=={.tip}
+- ==Primary 将短语与当前主题关联=={.primary}
+- ==Secondary 保持辅助性区分的低调=={.secondary}
+- ==Tertiary 增添独立的编辑信号=={.tertiary}
+- ==Error 标识需要修正的情况=={.error}
+- ==Tip 突出实用的操作指导=={.tip}
 
-## Author syntax
+## 编写语法
 
 ```markdown
 ==Primary marker==
@@ -37,4 +37,4 @@ Use a suffix when the meaning needs a different tonal role. The available varian
 ==Tip marker=={.tip}
 ```
 
-Inline code such as `==literal marker syntax==` and fenced examples stay literal, so documentation can explain the syntax without triggering it.
+行内代码（如 `==literal marker syntax==`）与围栏示例会保持字面文本,因此文档可以讲解该语法而不会触发它.
