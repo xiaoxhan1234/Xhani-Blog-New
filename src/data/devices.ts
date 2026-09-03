@@ -47,7 +47,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "honor-band-10-nfc",
-		name: 'HONOR-Band-10 NFC"',
+		name: 'HONOR-Band-10 NFC',
 		brand: "HONOR",
 		category: "wearables",
 		status: "active",
