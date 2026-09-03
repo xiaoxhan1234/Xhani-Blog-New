@@ -1,6 +1,6 @@
 ---
 title: Markdown 折叠面板
-published: 2026-09-2
+published: 2026-09-02
 description: 将可选的 Markdown 内容归组到紧凑、无障碍的 M3E 披露面板中.
 tags: [Markdown, 折叠, Shirone]
 category: 指南
